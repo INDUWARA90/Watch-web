@@ -1,0 +1,9 @@
+a,li{
+    color: black;
+    font-size: larger;
+}
+
+a:hover{
+    opacity: 0.7;
+    color: grey;
+}
