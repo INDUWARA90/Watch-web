@@ -1,0 +1,50 @@
+
+/* Section 01 start*/
+.container-welcome-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.W-Watch-image{
+    width: 450px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Discover-button{
+    width: 120px;
+    border: none;
+    padding: 10px;
+}
+
+.Add-to-cart-Button{
+    padding: 8px;
+    background-color: #1E2A5E;
+    border: none;
+    color: white;
+    border-radius: 4px;
+
+}
+
+/* Section 01 End*/
+
+
+
+/* Section 02 start*/
+
+
+
+
+
+
+
+
+
+
+
+/* Section 02 End*/
