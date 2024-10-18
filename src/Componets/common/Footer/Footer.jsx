@@ -1,11 +1,12 @@
 import React from 'react'
+import './footer.css'
 
 function Footer() {
   return (
     <>
 
       <div className="container">
-        <footer className="py-5">
+        <footer className="footer-container">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
               <h5>Section</h5>

@@ -1,0 +1,62 @@
+
+
+
+.box-container-new{
+    padding: 10px;
+    border: 2px solid #979797;
+    border-radius: 20px;
+    width: 380px;
+}
+
+.New-Button{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: #FABC3F;
+    border: none;
+    border-radius: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+.Watch-image{
+    width: 200px;
+}
+
+
+.Watch-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.watch-cart-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.add-cart-Button{
+    width: 130px;
+    border-radius: 25px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+}
+
+.Read-More-Button{
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    padding: 4px;
+    border: 2px solid rgb(208, 208, 208);
+    font-weight: bold;
+}
+

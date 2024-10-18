@@ -1,0 +1,25 @@
+
+.input-product-name{
+    width: 350px;
+    outline: none;
+}
+
+.Search-btn{
+    background-color: #1E2A5E;
+    border: none;
+    color: white;
+    height:40px ;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.Search-btn:hover{
+    opacity: 0.9;
+   
+}
+
+.Search-btn:active{
+    background-color: white;
+    color: black;
+   
+}

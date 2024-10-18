@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import { Link } from 'react-router-dom'
 
+
 function Header() {
   return (
   <>
@@ -12,10 +13,10 @@ function Header() {
       </a>
 
       <ul className="nav nav-pills">
-        <li className="nav-item"><a href="#" className="nav-link text-black" aria-current="page">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link text-black">Product</a></li>
-        <li className="nav-item"><a href="#" className="nav-link text-black">Arrival</a></li>
-        <li className="nav-item"><a href="#" className="nav-link text-black">Offers</a></li>
+        <li className="nav-item"><Link to='/' className="nav-link text-black" aria-current="page">Home</Link></li>
+        <li className="nav-item"><Link to='/product' className="nav-link text-black">Product</Link></li>
+        <li className="nav-item"><Link to='/Newproduct' className="nav-link text-black">Arrival</Link></li>
+        <li className="nav-item"><Link to='/offers' className="nav-link text-black">Offers</Link></li>
         <li className="nav-item"><a href="#" className="nav-link text-black">Collection</a></li>
         <li className="nav-item"><a href="#" className="nav-link text-black">Cart</a></li>
       </ul>

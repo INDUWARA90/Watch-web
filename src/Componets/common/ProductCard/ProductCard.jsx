@@ -1,16 +1,11 @@
 import React from 'react'
-import './newarrivalCard.css'
+import './productcart.css'
 import cartImage from '../../../assets/omega-blue.png'
-
-function NewArrivalCard() {
+function ProductCard() {
   return (
     <>
-      
+   
         <div className="box-container-new">
-
-          <div className='d-flex align-content-end justify-content-end'>
-            <button disabled={true} className='New-Button'>New</button>
-          </div>
 
           <div className='Watch-description'>
 
@@ -29,10 +24,10 @@ function NewArrivalCard() {
           </div>
 
         </div>
-      
 
+    
     </>
   )
 }
 
-export default NewArrivalCard
+export default ProductCard
